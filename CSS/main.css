@@ -9,7 +9,6 @@ ul {
     text-align: justify;
 
 }
-
 img {
     width: 400px;
     height: auto;
@@ -34,35 +33,17 @@ h1 {
     color: rgb(27, 2, 250);
     font-size: 40px;
 }
-
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-
 a:hover {
     /*Pseudoclasse*/
     color: rgb(240, 119, 119);
 }
-
 a {
     color: rgb(255, 0, 0);
 
-}
-
-table:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(105, 179, 240);
-}
-
-table {
-    background-color: rgb(250, 250, 250);
-    color: #000;
-    text-align: center;
-}
-
-ul {
-    color: rgb(0, 47, 255);
 }
 
 address strong {
@@ -77,4 +58,8 @@ address strong {
 #titulo-destaque {
     padding: 15px;
     background-color: rgb(231, 231, 231);
+}
+
+#criarconta{
+    color:blue;
 }
