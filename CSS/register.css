@@ -40,7 +40,7 @@ background: linear-gradient(225deg, rgba(0,121,255,1) 0%, rgba(23,23,23,1) 100%)
     top: 3.5rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .form>form {
@@ -97,8 +97,10 @@ background: linear-gradient(225deg, rgba(0,121,255,1) 0%, rgba(23,23,23,1) 100%)
 
 .form__button {
     display: block;
-    margin: 2.5rem auto 3rem;
+    margin: 1rem auto 1rem;
     padding: 1rem 5rem;
+    margin-bottom: 1px;
+
     background: linear-gradient(to left, #fc6767,
             #ec008c);
     color: #fff;
@@ -145,4 +147,7 @@ background: linear-gradient(225deg, rgba(0,121,255,1) 0%, rgba(23,23,23,1) 100%)
         border-radius: inherit;
         box-shadow: inherit;
     }
+}
+#btnSignup{
+    padding:0.5rem 3rem;
 }
