@@ -1,8 +1,30 @@
 body{
     background: rgb(0,121,255);
-    background: linear-gradient(270deg, rgba(0,121,255,1) 0%, rgba(23,23,23,1) 100%);
+background: linear-gradient(225deg, rgba(0,121,255,1) 0%, rgba(23,23,23,1) 100%);
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+    /*background: url('https://www.db.com/contentAsset/raw-data/e757b4c9-2a5b-4084-8879-fe09ab4e9ce5/fileAsset?language_id=1');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;*/
 }
+
 #corner{
     width: 100px;
     height: auto;
+}
+#imga{
+    width: 50px;
+}
+.listinha{
+    width: 27%;
+    margin-left:2rem;
+    
+}
+#exibir{
+    color:gray;
+    padding: 0;
+    margin: 0;
 }
