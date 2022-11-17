@@ -49,17 +49,17 @@
     <form action="">
         <div class="form__input">
             <i class="ri-user-line"></i>
-            <input type="text" placeholder="Nome Completo">
+            <input type="text" placeholder="Nome Completo" id="nome">
             <span class="bar"></span>
         </div>
         <div class="form__input">
             <i class="ri-mail-line"></i>
-            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Email" id="email">
             <span class="bar"></span>
         </div>
         <div class="form__input">
             <i class="ri-lock-line"></i>
-            <input type="text" placeholder="CPF">
+            <input type="text" placeholder="CPF" id="cpf">
             <span class="bar"></span>
         </div>
         <div class="form__input">
@@ -70,11 +70,8 @@
             
             <span class="bar"></span>
         </div>
-        <button type="submit" class="form__button">Sign up</button>
-        <button type="submit" class="form__button" name="btnLogin">Fazer Login</button>
-        <span class="form__switch">
-            Already have an account? <a href="login.html">Login</a>
-        </span>
+        <div style="text-align:center; margin:1rem; padding:1rem;" id="btnSignup"><A class="btn btn-outline-primary" id="btnSignup">Abrir sua conta</a></div>
+        <div style="text-align:center; color:rgb(148, 148, 148)">Já é cliente? <a href="login.html">Fazer Login</a></div>
     </form>
 </div>
 <script src="js/register.js"></script>
